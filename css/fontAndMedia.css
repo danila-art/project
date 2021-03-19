@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Oranienbaum', sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Old Standard TT', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1920px) {
+    .header__box h1 {
+        font-size: 54px;
+    }
+    .header__box-1 h3 {
+        font-size: 21px;
+        width: 25vw;
+        padding: 1%;
+        margin-left: 1%;
+    }
+    .header__flex-adaptive {
+        width: 15vw;
+    }
+    
+}
